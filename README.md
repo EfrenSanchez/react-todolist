@@ -1,5 +1,7 @@
 # React (TodoList)
 
+![Screenshot](./docs/capture.png)
+
 ## Quick Start
 
 ```bash

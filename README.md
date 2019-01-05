@@ -1,6 +1,6 @@
 # React (TodoList)
 
-![Screenshot](./docs/capture.png)
+![Screenshot](./docs/caputre.png)
 
 ## Quick Start
 

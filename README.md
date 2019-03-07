@@ -2,7 +2,7 @@
 
  React JS and the fundamentals such as components, state, props, JSX, events, etc. 
 
-![](./docs/capture.png)
+![](./docs/caputre.png)
 
 Screenshot
 

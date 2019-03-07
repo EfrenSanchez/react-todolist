@@ -2,9 +2,9 @@
 
  React JS and the fundamentals such as components, state, props, JSX, events, etc. 
 
-![](./docs/caputre.png)
+![Screenshot](./docs/caputre.png)
 
-Screenshot
+#### 🕹️ Demo https://efrensanchez.github.io/react-todolist/
 
 ## ✋ Before Getting Started You Should…
 

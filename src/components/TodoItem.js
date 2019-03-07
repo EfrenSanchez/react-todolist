@@ -3,20 +3,12 @@ import PropTypes from 'prop-types';
 
 export default class TodoItem extends Component {
   getStyle = () =>{
-    /*if(this.props.todo.completed){
-      return {
-        textDecoration:'line-through'
-      }
-    }else{
-      return {
-        textDecoration:'none'
-      }
-    }*/
     return {
       background: '#f4f4f4',
       padding: '10px',
       borderBottom:'1px #ccc dotted',
-      textDecoration: this.props.todo.completed ? 'line-through' : 'none'
+      textDecoration: this.props.todo.completed ? 'line-through' : 'none',
+      textTransform: 'uppercase'
     }
   }
 
@@ -27,6 +19,8 @@ export default class TodoItem extends Component {
       <div style={this.getStyle()}>
         <p>
           <input 
+            style={{marginRight: '8px'}}
+            checked={this.props.todo.completed}
             type="checkbox"
             onChange={ this.props.markComplete.bind(this, id) }
           />  
@@ -35,7 +29,7 @@ export default class TodoItem extends Component {
             style={btnStyle}
             onClick={this.props.delTodo.bind(this, id)}
           >
-            <span role="img">&#10060;</span>
+            <span role="img" aria-label="delete">&#10060;</span>
           </button>
         </p>
       </div>

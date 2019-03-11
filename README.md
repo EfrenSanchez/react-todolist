@@ -65,14 +65,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## 🏗️ Built With
 
 - [React](https://reactjs.org/docs/getting-started.html) - The web framework used
-- [Algolia](https://www.algolia.com/doc/api-client/getting-started/install/javascript/) - Algolia’s API
 
 
 ## 🖋️ Author
 
 - **Efren Sanchez** - *Initial work* - [EfrenSanchez](https://github.com/EfrenSanchez)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## ©️ License
 

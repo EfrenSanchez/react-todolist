@@ -1,0 +1,30 @@
+.heading__top {
+  padding: .5rem 0 1.5rem 0;
+}
+
+.heading__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.heading__link {
+  color: hsl(198, 1%, 29%);
+  text-decoration: none;
+}
+
+.heading__link:hover {
+  border-bottom: 3px solid hsla(166, 100%, 50%, 0.7);
+}
+
+.heading__title {
+  transform: rotate(5deg);
+  padding: .2rem 1.2rem;
+  background-color: hsla(166, 100%, 50%, 0.7);
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+}
+
+.heading__logo {
+  width: 24%;
+}

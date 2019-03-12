@@ -1,0 +1,21 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+input[type=checkbox] { display:none; } 
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+  content: "\f096"; /* unchecked icon */
+  letter-spacing: .8rem; /* space between checkbox and label */
+}
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+
+.delete:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+  content: "\f057";
+  font-size: 1.5rem;
+  color: hsla(6, 65%, 49%, .8);
+}

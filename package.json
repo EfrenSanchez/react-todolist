@@ -2,6 +2,14 @@
   "name": "react-todolist",
   "version": "0.1.0",
   "private": true,
+  "description": "React JS and the fundamentals such as components, state, props, JSX, events, etc.",
+  "keywords": [
+    "react",
+    "state",
+    "components"
+  ],
+  "repository": "https://github.com/EfrenSanchez/react-todolist",
+  "author": "Efren Sanchez <efren.sanchezgon@gmail.com>",
   "homepage": "https://efrensanchez.github.io/react-todolist/",
   "dependencies": {
     "axios": "^0.18.0",
